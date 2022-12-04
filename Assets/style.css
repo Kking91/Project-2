@@ -22,16 +22,25 @@ body {
 }
 
 .header div {
-font-display: 10px;
+    font-display: 100px;
 }
 
 .header div ul{
-font-size: 10px;
+    font-size: 100px;
 
 }
 
 .header div ul li {
-font-size: 10px;
+    font-size: 100px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }
 
 .Background {
