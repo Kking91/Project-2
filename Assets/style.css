@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(183, 96, 233);
+}
+
+.header {
+    padding: 20px;
+    font-family: Verdana, sans-serif;
+    background-color: #360cac;
+    color: #e4cdcd;
+}
+
+.header h1 {
+    display: inline;
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.header div {
+    
+}
+
+.header div ul{
+
+
+}
+
+.header div ul li {
+
+}
+
+.Background {
+height: 1000px;
+width: 100%;
+background-image: url();
+background-size: cover;
+background-position: center;
+}
+
