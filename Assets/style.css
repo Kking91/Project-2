@@ -15,10 +15,11 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-evenly; 
+    margin: 20px;
 }
 
 .header {
-    padding: 10px;
+    padding: 0px;
     font-family: Verdana, sans-serif;
     background-color: #000000;
     color: #e4cdcd;
@@ -32,7 +33,7 @@ body {
 .header div {
     text-align: center;
     margin: 20px;
-    padding: 20px;
+    padding: 00x;
 }
 
 .header div ul li {
@@ -48,4 +49,31 @@ main {
 
 .main article h2 {
     font-size: xx-large;
+}
+
+.Information {
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 200px;
+    width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.Float-Left {
+    float: left;
+    margin-right: 45px;
+}
+
+.Float-Right {
+    float: right;
+    margin-left: 45px;
+}
+
+.Content {
+    width: 100%;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
 }
