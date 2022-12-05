@@ -5,28 +5,47 @@
 }
 
 body {
-    background-color: rgb(183, 96, 233);
+    color: white;
+    position: relative;
+    background-image: url("../Assets/pictures/Background1.jpg");
+    background-size: contain;
+}
+
+.List {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
 .header {
-    padding: 20px;
+    padding: 10px;
     font-family: Verdana, sans-serif;
-    background-color: #360cac;
+    background-color: #000000;
     color: #e4cdcd;
 }
 
 .header h1 {
-    display: inline;
     font-size: 60px;
-    padding-left: 40px;
+    text-align: center;
 }
 
-
-.Background {
-height: auto;
-width: 100%;
-background-image: url();
-background-size: cover;
-background-position: center;
+.header div {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
+.header div ul li {
+    border:rgb(0, 0, 0) 10px;
+    display: inline;
+    list-style-type: none;
+    
+}
+
+main {
+ position: relative;
+}
+
+.main article h2 {
+    font-size: xx-large;
+}
