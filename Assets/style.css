@@ -5,7 +5,6 @@
 }
 
 body {
-    color: white;
     position: relative;
     background-image: url("../Assets/pictures/Background1.jpg");
     background-size: contain;
@@ -52,9 +51,10 @@ main {
 
 .Information {
     border-color: white;
+    margin-left: 200px;
     margin-bottom: 20px;
     padding: 25px;
-    height: 350px;
+    height: 200px;
     width: 800px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #000000;
